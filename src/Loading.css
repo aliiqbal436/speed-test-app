@@ -10,3 +10,13 @@
     margin-top: 10px;
     font-size: 18px;
   }
+
+  @media (max-width: 768px) {
+    .AU64fe {
+        display: block !important;
+      }
+      .bYhoud {
+        width: 100% !important;
+      }
+  }
+
