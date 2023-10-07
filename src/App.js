@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 import './Loading.css';
 
-const socket = io("http://144.202.14.21:3007");
+const socket = io("http://localhost:3007");
 
 function App() {
   const [htmlContent, setHtmlContent] = useState("");
